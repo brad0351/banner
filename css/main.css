@@ -25,10 +25,17 @@ html {
 }
 
 .banner {
+  position: relative;
+  max-height: 25rem;
+  }
 
-}
 
 .banner-content {
-  display: block;
-  width:100%;
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+
 }
