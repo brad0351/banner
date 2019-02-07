@@ -44,12 +44,5 @@ html {
 
   .banner {
     max-height: 24rem;
+    overflow: hidden;
   }
-
-p {
-  font-weight: bold;
-}
-
-h1 {
-  font-weight: bold;
-}
